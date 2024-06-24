@@ -4,7 +4,7 @@
 This project focuses on tackling the challenge of imbalanced data in financial transactions through the application of oversampling and undersampling techniques. Additionally, the study explores the use of autoencoders to enhance the precision of detecting outliers.
 
 ### Dataset
-The dataset used for this research is Credit Card Fraud Detection, consisting of 284,807 transactions with 31 columns. Key attributes include time, amount, and a binary class indicating fraud or non-fraud.
+The dataset used for this research is Credit Card Fraud Detection, consisting of 284,807 transactions with 31 columns. 
 
 ### Preprocessing and Problem Statement
 The dataset undergoes minimal preprocessing due to the absence of null values and categorical variables. However, the primary challenge is the highly imbalanced classes, with only 0.17% of transactions classified as fraud. Various oversampling (SMOTE, ROS) and undersampling (RUS, NearMiss) techniques are employed to address this imbalance.
